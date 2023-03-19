@@ -19,7 +19,8 @@
 .env.production.local
 .firebase
 .firebaserc
-.firebase.json
+firebase.json
+.gitignore
 
 npm-debug.log*
 yarn-debug.log*
