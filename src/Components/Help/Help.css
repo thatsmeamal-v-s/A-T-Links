@@ -1,0 +1,25 @@
+.help-container{
+    border: 2px solid #e9e9e9;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.help-container img {
+    width: 35px;
+}
+
+.help-container p {    
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.help-container button {    
+    padding: 5px 30px;
+    border-radius: 12px;
+}
+
+.help-heading {
+    font-weight: 650;
+}

@@ -1,0 +1,27 @@
+.card-content-container span {
+   margin-left: 8px;
+   font-weight: 500;
+ }
+ 
+ .card-content {
+   display: block;
+ }
+ 
+ .mail-icon {
+   width: 15px;
+   height: 10px;
+ }
+ 
+ .contacts-count {
+   float: right;
+   color: #be212a;
+   border-radius: 50%;
+   background-color: #fff2f2;
+   padding: 8px;
+   margin-left: 2em;
+ }
+ 
+ .phone-icon {
+   width: 15px;
+   height: 15px;
+ }

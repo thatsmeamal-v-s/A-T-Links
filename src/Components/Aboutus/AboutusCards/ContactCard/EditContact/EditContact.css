@@ -1,0 +1,92 @@
+.edit-contact-container {
+   height: 80%;
+   overflow: auto;
+}
+
+.edit-contact-card {
+   margin-top: 0;
+   padding-left: 1em;
+   height: 13em;
+   margin-bottom: 1.5em;
+   padding-bottom: 1.5emṭ;
+}
+
+.edit-contact-leftarrow {
+   cursor: pointer;
+}
+
+.edit-card-heading {
+   display: inline-block;
+   margin-bottom: 2em;
+}
+
+.edit-card-heading span {
+   position: relative;
+   top: 5px;
+   font-weight: 700;
+   margin-left: 1em;
+   letter-spacing: 1px;
+}
+
+.edit-card-header {
+   width: 1.5em;
+   height: 1.5em;
+}
+
+.edit-header-icon {
+   cursor: pointer;
+   position: relative;
+   top: 7px;
+   float: right;
+   height: 1.4em;
+   width: 1em;
+   margin-left: 0.8em;
+}
+
+.delete-header-icon {
+   cursor: pointer;
+   position: relative;
+   top: 7px;
+   float: right;
+   height: 1.3em;
+   width: 1.2em;
+}
+
+.edit-card-content-container {
+   margin-left: 0.3em;
+}
+
+.email-content span, .phonenumber-content span{
+   margin-left: 1em;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+.email-content, .phonenumber-content {
+   display: flex;
+   align-items: center;
+   flex-direction:row;
+   margin-bottom: 0.2em;
+   min-width: 100%;
+}
+
+.edit-content {
+   margin-bottom: 2em;
+}
+
+.email-content span {
+   min-width: 100px;
+   flex-basis: 0px;
+   flex-grow: 1;
+}
+
+.phonenumber-content span {
+   min-width: 100px;
+   flex-basis: 0px;
+   flex-grow: 1;
+}
+
+.edit-mail-icon, .edit-phone-icon {
+   width: 1.2em;
+   height: 0.9em;
+}

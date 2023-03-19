@@ -1,0 +1,27 @@
+.main-content {
+    display: flex;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.row {
+    margin-left: 10px;
+    margin-right: 4px;
+    padding: 0;
+}
+
+.sidebar {
+    padding: 30px 15px 25px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex: 0 0 14%;
+    height: fit-content;
+    margin-left: 1.5em;
+}
+
+.about {
+    background-color: #ffffff;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    border-radius: 10px;
+}

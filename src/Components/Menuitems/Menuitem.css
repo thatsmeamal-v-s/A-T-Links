@@ -1,0 +1,36 @@
+.menu-item {
+    cursor: pointer;
+    display: flex;
+    padding: 1.1em;
+}
+
+.menu-item:hover {
+    background-color: #fff2f2;
+    border-radius: 8px;
+}
+
+.menu-item:hover span {
+    color: #ce575d;
+}
+
+.menu-item span {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #bbbbbb;
+}
+
+.menu-item img {
+    width: 18px;
+}
+
+.active {
+    cursor: pointer;
+    background-color: #fff2f2;
+    border-radius: 8px;
+}
+
+.active span {
+    color: #ce575d;
+}

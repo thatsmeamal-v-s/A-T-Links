@@ -1,0 +1,41 @@
+.aboutus-navbar-container {
+    margin: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.aboutus-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.aboutus-navbar li {
+    float: left;
+    margin-right: 50px;
+}
+
+.aboutus-navbar-active span {
+    color: #000000;
+    font-weight: 800;
+}
+
+.aboutus-navbar li span {
+    font-weight: 500;
+    color: #9a9a9a;
+    display: block;
+    text-align: center;
+    padding: 14px 6px;
+    text-decoration: none;
+}
+
+.aboutus-navbar li span:hover {
+    cursor: pointer;
+    color: #000000;
+    border-color: #be212a;
+}
+
+.aboutus-navbar-active {
+    border-bottom: 1px solid #be212a;
+}
+

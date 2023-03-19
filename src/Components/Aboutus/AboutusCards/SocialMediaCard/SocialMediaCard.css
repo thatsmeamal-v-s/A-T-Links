@@ -1,0 +1,19 @@
+.social-media-items {
+    margin: 0;
+}
+
+.social-media-items div {
+    display: grid;
+}
+
+.social-media-items span{
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.social-media-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
