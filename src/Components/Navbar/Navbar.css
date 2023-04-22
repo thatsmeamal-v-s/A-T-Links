@@ -5,6 +5,10 @@
   padding-top: 0.2em;
 }
 
+.hamburger {
+  display: none;
+}
+
 .logo-container {
   padding-left: 2.7em;
 }
@@ -13,15 +17,14 @@
   height: 3rem;
 }
 
-
 .search-container {
-  flex-basis: 35em;
+  width: 30%;
 }
 
 .search {
   border-radius: 8px;
   border-color: #eff2f9;
-  padding-left: 2rem;
+  padding-left: 2em;
   background: url("../../images/search.svg") no-repeat 5px #eff2f9;
   background-size: 20px;
 }
@@ -32,7 +35,6 @@
   font-size: 0.8em;
 }
 
-
 .checkout {
   height: 2rem;
   padding: 0 10px;
@@ -41,7 +43,6 @@
   background-size: 1.5rem;
   border-radius: 6px;
   font-weight: 600;
-  margin-right: 3em;
 }
 
 .checkout span {
@@ -54,7 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 33em;
+  padding-right: 10px;
 }
 
 .avatar-container span {
@@ -62,7 +63,6 @@
   margin-left: 0.6rem;
   position: relative;
   margin-top: 0.3rem;
-
 }
 
 .avatar {
@@ -74,4 +74,55 @@
   position: relative;
   margin-top: 0.4rem;
   margin-left: 0.8rem;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display: inline;
+  }
+  .logo-container {
+    background-color: #ffffff;
+    padding: 5px 5px 5px 3%;
+  }
+  .hamburger-avatar {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .avatar-container-sm {
+    display: inline;
+    float: right;
+  }
+  .hamburger-list {
+    background-color: #eff2f9;
+  }
+  .hamburger-list ul {
+    list-style-type: none;
+    justify-content: center;
+  }
+  .hamburger-list li {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #000000;
+  }
+  .hamburger-list li:hover {
+    border: 1px solid #000000;
+  }
+  .search {
+    padding-left: 46%;
+    background: url("../../images/search.svg") no-repeat 44% #eff2f9;
+  }
+  .sm-cart-container {
+    cursor: pointer;
+  }
+  .sm-cart {
+    font-size: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+  }
 }
