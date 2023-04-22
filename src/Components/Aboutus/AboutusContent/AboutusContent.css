@@ -1,20 +1,20 @@
 .aboutus-content-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .aboutus-content {
-    color: #666666;
-    letter-spacing: 1px;
-    width: 65%;
-    text-align: justify;
-    margin-right: 10px;
-    margin-top: 20px;
+  color: #666666;
+  letter-spacing: 1px;
+  width: 65%;
+  text-align: justify;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
 .edit-icon {
-    cursor: pointer;
-    margin-top: 12px;
-    width: 22px;
-    height: 24px;
+  cursor: pointer;
+  margin-top: 6px;
+  width: 22px;
+  height: 24px;
 }
