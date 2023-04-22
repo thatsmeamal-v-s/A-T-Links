@@ -8,7 +8,11 @@ import StatementCard from "./StatementCard/StatementCard";
 
 const AboutusCards = (props) => {
   return (
+<<<<<<< HEAD
     <div className="card-container">
+=======
+    <div className="asd">
+>>>>>>> fb21a800efe5f02e23d451acd2a4b34bbfbd63a8
       <ContactCard
         showPanel={props.showPanel}
         toggleShowPanel={props.toggleShowPanel}
