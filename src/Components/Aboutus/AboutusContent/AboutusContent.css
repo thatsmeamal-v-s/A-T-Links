@@ -1,12 +1,11 @@
 .aboutus-content-container {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .aboutus-content {
   color: #666666;
   letter-spacing: 1px;
-  width: 65%;
+  width: 95%;
   text-align: justify;
   margin-right: 10px;
   margin-top: 20px;
