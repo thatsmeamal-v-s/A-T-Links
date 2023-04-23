@@ -8,11 +8,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.aboutus-navbar li {
-  float: left;
-  margin-right: 50px;
+  justify-content: space-between;
 }
 
 .aboutus-navbar-active span {
@@ -37,4 +33,10 @@
 
 .aboutus-navbar-active {
   border-bottom: 1px solid #be212a;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutus-navbar {
+    flex-direction: column;
+  }
 }
