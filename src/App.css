@@ -1,7 +1,21 @@
 .main-content {
   display: flex;
   margin-top: 2rem;
-  max-width: 100%;
+  justify-content: space-around;
+}
+
+.sidebar {
+  padding: 30px 15px 25px 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: fit-content;
+  width: 20%;
+}
+
+.about {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 77%;
 }
 
 .card-container {
@@ -21,20 +35,4 @@
   .card-container {
     grid-template-columns: 1fr;
   }
-}
-
-.sidebar {
-  padding: 30px 15px 25px 15px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  flex: 0 0 14%;
-  height: fit-content;
-  margin-left: 1.5em;
-}
-
-.about {
-  background-color: #ffffff;
-  margin-left: 1.8em;
-  margin-right: 1.8em;
-  border-radius: 10px;
 }
